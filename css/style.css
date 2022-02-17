@@ -1,0 +1,312 @@
+/* -------------------
+  全体構造
+------------------- */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 16px;
+}
+a {
+  color: #000000;
+}
+
+/* -------------------
+  header
+------------------- */
+header {
+  background-color: #b7193f;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+header .inner {
+  width: 1100px;
+  margin: 0 auto; 
+  display: flex;
+}
+header h1 {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+header nav {
+  margin-right: 20px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  margin-left: 40px;
+}
+header li  {
+  line-height: 130px;
+  height: 130px;
+  width: 100px;
+  /* border-bottom: 5px solid #fff; */
+  text-align: center;
+}
+header li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+header .access {
+  width: 60px;
+  line-height: 100px;
+  margin-left: 60px;
+}
+/* -------------------
+  main
+------------------- */
+main {
+  width: 750px;
+}
+main .main-image1 {
+margin-bottom: 20px;
+}
+main section {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+section .left {
+  background-color: #b7193f;
+  height: 150px;
+  color: #fff;
+  line-height: 24px;
+  padding: 49px 28px 49px 28px;
+}
+section .right {
+  background-color: #b7193f;
+  height: 150px;
+  color: #fff;
+  line-height: 24px;
+  padding: 30px 10px 30px 10px;
+}
+main .main-image2 {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+}
+section h3 {
+  font-size: 20px;
+  margin-left: 120px;
+}
+section p {
+  font-size: 16px;
+}
+section {
+  border: 2px solid #b7193f;
+  margin-bottom: 20px;
+}
+.left1 {
+  border-right: 1px solid #b7193f;
+  background-color: chartreuse;
+}
+.right1 {
+  border-left: 1px solid #b7193f;
+}
+div .main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+/* -------------------
+  aside
+------------------- */
+aside {
+  width: 330px;
+  margin-bottom: 20px;
+}
+aside div .banner ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #b7193f;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+aside div .banner li {
+  list-style-type: none;
+}
+aside .news h2 {
+  font-size: 20px;
+  color: #b7193f;
+  border-bottom: 2px solid #b7193f;
+  padding: 0 130px 10px 130px;
+}
+aside .news li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+aside .news li a {
+  width: 250px;
+  height: 70px;
+  margin: 10px 20px 10px 20px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+aside .news a:hover {
+  color: #b7193f;
+  text-decoration: underline;
+}
+/* -------------------
+  footer
+------------------- */
+footer {
+  color: #fff;
+  height: 210px;
+  background-color: #b7193f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer h1 {
+  margin-bottom: 30px;
+}
+footer address {
+  margin-bottom: 20px;
+}
+
+/* -------------------
+  学校生活　main
+------------------- */
+main .schedule {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 810px;
+}
+main .school-life{
+  margin-bottom: 50px;
+}
+.month ul {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  padding: 5px;
+}
+.schedule li {
+  list-style-type: none;
+}
+main .month {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #b7193f;
+  width: 330px;
+  height: 160px;
+  position: relative;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+main .schedule .month:nth-child(even) {
+  margin-right: 35px;
+}
+main .month img {
+  position: absolute;
+  top: -30px;
+  right: -35px;
+}
+.month-logo {
+  background-color: #b7193f;
+  color: #fff;
+  height: 156px;
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.month-logo h2 {
+  font-size: 30px;
+  color: #fff;
+}
+
+/* -------------------
+  資格取得　main
+------------------- */
+main .main-top {
+  width: 750px;
+  margin-bottom: 20px;
+}
+.sikaku h2 {
+  font-size: 20px;
+}
+main .sikaku {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+main .main-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+main .sikaku-left {
+  line-height: 24px;
+  padding-right: 50px;
+}
+main .sikaku-right {
+  line-height: 24px;
+}
+main .tagu {
+  color: #b7193f;
+  display: inline;
+}
+main .sikaku a {
+  text-decoration: none;
+}
+main .sikaku a:hover {
+  color: #b7193f;
+  text-decoration: underline;
+}
+
+/* -------------------
+  アクセス
+------------------- */
+main .access {
+  width: 750px;
+}
+main .midasi {
+display: inline;
+margin-left: 20px;
+}
+main .access h2 {
+  color: #b7193f;
+  margin-bottom: 20px;
+}
+main h2 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+main .map {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
